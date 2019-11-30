@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi CV</title>
+</head>
+<body>
+
+<style>
+		#principal{
+		border: solid 1px black;
+		width: 70%;
+		margin: 0 auto;
+		padding: 5px;
+	}
+
+	fieldset{
+		margin-bottom: 10px;
+	}
+	
+	legend{
+		border: solid 1px violet;
+		padding: 5px;
+		font-weight: bold;
+		border-radius: 20px;
+		background: lightblue;
+	}
+	
+	#mifoto{
+		margin: 5px;
+		border: solid 4px black;
+	}
+
+	body{
+		background: url(fondos.jpg);
+		background-size: 100%; 		
+	}
+</style>
+	
+	<div id="principal">
+	<img src="Foto.jpg" id="mifoto" width="150" align="left">
+	<h2>Maria Del Rosario Diaz Hernandez</h2>
+
+	<br><br><br><br><br><br><br>
+
+	<fieldset>
+		<legend>Datos Generales</legend>
+		<ul>
+			<li>Célula: 183-2506107-0</li>
+			<li>Direccion: Villa Fontana</li>
+			<li>Celular: 887-272-5571</li>
+			<li>Email: Masupera@hotmail.com</li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+	<legend>Estudios Realizados</legend>
+	<ul>
+		<li>Estudio Primario:Escuela Ruben Dario</li>
+		<li>Estudio Secundario:Colegio Supera</li>
+		<li>Estudio Preparatoriano:Cetis 107</li>
+	</ul>
+	</fieldeset>
+
+	<fieldset>
+	<legend>Idiomas Dominados</legend>
+	<ul>
+		<li>Español</li>
+		<li>Inglés</li>
+	</ul>
+</fieldset>
+
+<center>
+
+<fieldset>
+	<legend>Peliculas Favoritas</legend>
+	<h1>Jugando con fuego</h1><img src="pelicula1.jpg" height="150" width="150">
+	<h1>Frozen 2</h1><img src="pelicula2.jpg" height="150" width="150">
+	<h1>Bajo la misma Estrella</h1><img src="pelicula3.jpg" height="150" width="150">
+</fieldset>
+
+	</center>
+
+</div>
+
+</body>
+</html>
